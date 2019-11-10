@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Sign In</title>
+  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="display:flex; flex-direction:column; justify-content:center; align-items: center;">
+  <h1 style="text-align: center;">Sign in</h1>
+  <form method="post">
+    <fieldset>
+      <legend>Personal information:</legend>
+      User name:<br>
+      <input type="text" id="username"><br>
+      Password:<br>
+      <input type="password" id="password"><br><br>
+      <input type="checkbox" onclick="showPassword()">Show Password<br><br>
+      <button onclick="validateData()" class="buttonSmall">Sign In</button>
+      <p>Haven't Signed up? <a href="signUp.html" class="link">Sign Up</a></p>
+    </fieldset>
+  </form>
+  <a href="Subset Sum Problem.html" class="link">Home</a>
+</body>
+
+</html>
